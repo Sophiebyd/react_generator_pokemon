@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from "./styles/styles.css"
+import styles from "./styles/styles.css";
+// import Home from "./components/Home";
+// import AllTeam from "./components/AllTeam";
+// import CreateTeam from "./components/CreateTeam";
+// import EditedTeam from "./components/EditedTeam";
 
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const apiUrl = process.env.API_URL;
 
@@ -18,16 +22,23 @@ const App = () => {
     // }, []);
 
     return (
-        <div>
+        <>
             <Header />
             <h1 className="title">Liste des pokémons</h1>
             <ul>
-                <li>{data}</li>
-            <Footer />
+                <li></li>
             </ul>
-        </div>
+            {/* <Router>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/AllTeam" component={AllTeam} />
+                    <Route path="/CreateTeam" component={CreateTeam} />
+                    <Route path="/EditedTeam" component={EditedTeam} />
+            </Router> */}
+    <Footer />
+
+        </>
     );
-    
+
 }
 
 
