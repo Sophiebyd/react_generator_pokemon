@@ -11,16 +11,13 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/">Accueil</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/all_team">Toutes les équipes de Pokémon aléatoires créées</Link>
-                    </li>
-                    <li className="nav-item">
                         <Link className="nav-link" to="/create_team">Générer une équipe de Pokémon aléatoire</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/edited_team">Modifier une équipe existante</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/all_team">Toutes les équipes de Pokémon aléatoires créées</Link>
                     </li>
                 </ul>
                 <form className="d-flex">
