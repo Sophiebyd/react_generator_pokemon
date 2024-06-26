@@ -17,7 +17,7 @@ const Header = () => {
                         <Link className="nav-link" to="/edited_team">Modifier une équipe existante</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/all_team">Toutes les équipes de Pokémon aléatoires créées</Link>
+                        <Link className="nav-link" to="/all_team">Toutes les équipes de Pokémon</Link>
                     </li>
                 </ul>
                 <form className="d-flex">
